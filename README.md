@@ -17,6 +17,7 @@ Add support files directly into Jupyter.
 3.	Click “Download the Anaconda installer.”
 4.	In the Python 3.7 version * box click on “64-Bit Graphical Installer “ under the download button 
 5.	Run the installer
+    
     a.	Do not change the Install Location
     b.	Leave the PATH variable unchecked
     c.	Skip Visual Studio
@@ -25,9 +26,11 @@ Add support files directly into Jupyter.
 
 The python serial port support library pySerial needs to be added. It provides backends for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant system) and IronPython to access a serial port.
 1.	 Open the Anaconda command prompt
-    a.	Press the Windows key and type “Anaconda prompt”
+       
+       a.	Press the Windows key and type “Anaconda prompt”
 2.	In the command prompt type “conda install -c anaconda pyserial”
 3.	Type “y” to proceed with the install
+    
     a.	“Executing transaction: done” means the install is complete
 4.	Close the window
 
@@ -35,14 +38,17 @@ The python serial port support library pySerial needs to be added. It provides b
 
 1.	Plug in the AnalogMAX using a micro USB cable
 2.	Open Device Manager
+    
     a.	Press the Windows key and type “device manager”
 3.	Check under Ports (COM & LPT) for “USB Serial Port (COMx)”
+   
     a.	Remember the COM port number!
 4.	Check under Universal Serial Bus controllers for “USB Serial Converter A” and “USB Serial Converter B”
 
 **Open Jupyter**
 
 1.	Open Anaconda Navigator
-a.	Press the Windows key and type “Anaconda Navigator”
+    
+    a.	Press the Windows key and type “Anaconda Navigator”
 2.	Click “Launch” in the Jupyter notebook box 
 
