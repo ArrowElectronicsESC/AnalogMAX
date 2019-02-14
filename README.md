@@ -1,4 +1,6 @@
 # AnalogMAX
+**Warning: This code cannot be edited in GitHub. Clone/Download and open in Jupyter**
+
 The AnalogMAX is multi-featured sensor fusion FPGA development platform targeting smart city and smart building applications. 
 It is based on the MAX10 Intel FPGA, including the brand-new Smoke & Aerosol Detector ADPD188BI from Analog Devices. The ADPD188BI is a complete photometric system for smoke detection utilizing optical dual-wavelength technology. The chip integrates a highly efficient photometric front end, two LEDs, and a photodiode. The board also includes a fully calibrated single-chip temperature sensor (0.25°C, 16-Bit), MEMS accelerometer (3-axis), and compact 8-channel ADC/DAC/GPIO extender. A soft core NIOS II processor and sample HDL code provides the means by which the sensors are configured and read via Python code running within a Jupyter notebook .
 
